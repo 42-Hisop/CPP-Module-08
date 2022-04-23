@@ -1,7 +1,4 @@
 #include "easyFind.hpp"
-#include <vector>
-#include <list>
-#include <iostream>
 
 int main()
 {
@@ -28,6 +25,6 @@ int main()
 		std::cout << *it << std::endl;
 	else
 		std::cerr << "Not found" << std::endl;
-	
+
 	return (0);
 }
